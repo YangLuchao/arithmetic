@@ -1,8 +1,4 @@
-package arithmetic.Sort;
-
-import jdk.nashorn.internal.ir.ReturnNode;
-
-import javax.swing.*;
+package arithmetic.sort;
 
 /**
  * @author ylc

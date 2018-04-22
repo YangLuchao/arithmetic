@@ -29,7 +29,7 @@ public class TwoNumSum {
     }
 
     public static int[] twoSum(int[] source, int target) {
-        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>(16);
         int[] res = new int[2];
         for (int i = 0; i < source.length; i++) {
             if(map.containsKey(target - source[i])){

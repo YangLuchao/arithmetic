@@ -1,4 +1,4 @@
-package arithmetic.Sort;
+package arithmetic.sort;
 
 /**
  * @author ylc
